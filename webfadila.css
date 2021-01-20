@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(3, 3, 3);
+    font-family: inherit;
+    -webkit-box-reflect: below 10px;
+}
+header{
+    color: gold;
+    font size: 30px;
+}
+.garis{
+    background-color: gold;
+    width: 10px;
+    height: 200px;
+    border-radius: 8px;
+}
+main{
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin-left: 200px;
+}
+.nama{
+    color: gold;
+}
+.warna{
+    color: gold;
+}
+.button{
+    background-color: rgba(218, 241, 15, 0.973);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 80px;
+    color: black;
+}
+.iconify{
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.icon{
+    margin-top: 20px;
+}
